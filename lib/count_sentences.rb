@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     array = self.split
-    array.count{ |x| x.sentenc? || x.question? || x.exclamation?}
+    array.count{ |x| x.sentence? || x.question? || x.exclamation?}
   end
 end
